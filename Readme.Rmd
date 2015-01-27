@@ -19,6 +19,16 @@ where '~' is your home DIR defined in R
 ## Running the script
 Save the script in a directory and set that directory as your working dir
 
+## Script Logic
+1) Read activity, subject and feature data from files into variables
+2) Merge the data into one variable
+3) Set the name of varaibles (columns)
+4) subset fetures by measurement on mean and SD
+5) Produce the data based on selected names (subject and activity)
+6) Assign Labels
+7) Produce output into tiny data set
+
+
 ## Execution
 From R prompt issue the command "run_analysis.R". An output file will be present 
 in your working directory
